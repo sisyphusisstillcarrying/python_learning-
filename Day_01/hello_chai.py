@@ -5,3 +5,4 @@ def chai(n):
 
 
 print("lemon tea")
+chai_one = "chai masala"
