@@ -23,21 +23,23 @@ either python can import knowing where it is or otherwise first it will look ins
 
 
 we can also inport and to the function in python shell
-
+ ```
 import hello_chai
 >>> hello_chai.chai("mint tea")
 mint tea (o/p)
-
+ ```
 #### if we add attributes to the py file after import those are note accessable. we need to import again.
  we can re import or access it by reopening terminal and importing but we will use reload
-
+```
  >>> from importlib import reload
  >>> reload(hello_chai)
-
+```
 errors (till now)
 1. Indentation
 2. namespace <stdin>
-3. attributes/variable: Traceback (most recent call last):
+```
+   attributes/variable: Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
   NameError: name 'chai' is not defined
+```
 
